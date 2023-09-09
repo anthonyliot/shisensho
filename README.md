@@ -18,4 +18,4 @@ You can download the JAR file and try it <a href="https://github.com/anthonyliot
 3. Import the project and choose build and run.
 
 <h2>Copyright</h2>
-This project is licensed under the terms of the MIT license and protected by Udacity Honor Code and Community Code of Conduct. See <a href="LICENSE">license</a>.
+This project is licensed under the terms of the MIT license. See <a href="LICENSE">license</a>.

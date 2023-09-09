@@ -6,7 +6,8 @@
 </p>
 <br/>
 <h2>About</h2>
-This project was developed during my bachelor degree in Caen, France. 
+This project was developed during my bachelor degree in Caen, France.
+<br/>
 Shisen-Sho sometimes referred to as 'Shisen', 'Four Rivers' or simply 'Rivers', is a Japanese tile-based game which uses Mahjong tiles, and is similar to Mahjong solitaire. The objective of the game is to match similar tiles in pairs until every tile has been removed from the playing field. Numerous computer based versions of the game have been developed.
 <br/>
 You can download the JAR file and try it <a href="https://github.com/anthonyliot/shisensho/releases/tag/v1.0">here</a>

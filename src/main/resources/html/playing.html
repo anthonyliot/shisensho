@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<div style="text-align: justify;">
+<div style="text-align: left;"><big><small><big
+ style="color: rgb(102, 102, 102);"><big><span
+ style="font-weight: bold;">Jouer au Shisen-Sho</span></big></big></small></big><br>
+<big><small></small></big></div>
+<hr style="width: 100%; height: 2px;">
+<div style="text-align: left;">Le but de notre version du jeu est de r�soudre successivement un ensemble de niveaux.
+<br>
+<br>
+Chaque niveau est caractérisé par un nombre de pièces
+(9&times;16),&nbsp; un nombre de vie (2), une gravité et un temps limite (environs 10 minutes).
+Pour résoudre un niveau, le joueur doit retirer toute les pièces dans le temps autorisé tout en maintenant son nombre de vie strictement positive. En début de partie le nombre de vie est egal à la somme des nombres des vies des différents niveaux.
+<br>
+<br>
+Seul deux pièces compatibles (pièces ayant le même symbole) peuvent être retiré â la fois. Pour être retirées du plateau, ces dernières doivent pouvoir être reliées par une ligne brisée composée d'un maximum de trois brins. Ces brins peuvent être tracés que dans des zones dépourvue de pièces; la zone depourvue de pièce qui entoure le plateau est considéré comme faisant partie de ce dernier, il est donc possible d'y tracer des brins de droites. Ils peuvent être horizontaux ou verticaux mais pas diagonaux.&nbsp;
+ <br>
+<br>
+Pour retirer deux pièces, le joueur a juste â cliquer successivement sur ces dernières qui sont automatiquement retirées en cas de compatibilité.<br>
+<br>
+A chaque fois que des pièces sont retirées du plateau, le jeu deplace les pièces restante en fonction de la gravité appliqué au niveau. Si le niveau devient insoluble, car il n'y a plus de pièces connectables alors le jeu procéde a un melange en garantissant l'existence d'au moins une solution.<br>
+<br>
+Le joueur perd un vie à chaque mélange oú lorsqu'il demande un coup de pouce (Menu -> Jeu -> Conseil). A l'inverse, il gagne une vie pour chaque niveau résolu.<br>
+<br>
+Le score &#8220;S&#8221; d'un niveau est calculé via la formule suivante, oú &#8220;n&#8221; represente le nombre de pièces initial et &#8220;t&#8221; le temps (en scondes) nécessaire à sa résolution:<br>
+</div>
+</div>
+<big><small><br>
+</small></big>
+<div style="text-align: center;"><big><small><img alt="formula"
+ src="formule.png" style="width: 171px; height: 217px;"></small></big><br>
+</div>
+<big><small><br>
+</small></big>
+<div style="text-align: left;">Si le niveau a une gravité le score est alors multiplié par deux.<br>
+<br>
+Le score du joueur est la somme des scores de chaque niveaux. Il est mis à jour à chaque fin de niveau. Le jeu mémorise les dix meilleurs scores.<br>
+<br>
+</div>
+<br>
+<table style="width: 100%; text-align: left;" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="text-align: left; vertical-align: top;"><a
+ href="introduction.html">Precédent</a><br>
+Introduction<br>
+      </td>
+      <td style="text-align: center; vertical-align: top;"><a
+ href="index.html">Index</a><br>
+      </td>
+      <td style="text-align: right; vertical-align: top;"><a
+ href="menu.html">Suivant</a><br>
+Le Menu<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>

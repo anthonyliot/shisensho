@@ -2,7 +2,7 @@
 <h1 align="center"><a href="https://github.com/anthonyliot/shisensho/releases/tag/v1.0">SHISENSHO</a></h1>
 <p align="center">
 <strong>Japanese tile-based game in java</strong>
-<br>2007
+<br>2006
 </p>
 <br/>
 <h2>About</h2>
